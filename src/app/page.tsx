@@ -53,7 +53,7 @@ const cardByStatus = (status: string) => {
 };
 
   return (
-    <main className="min-h-dvh bg-red-500 text-white p-10">
+    <main className="min-h-dvh bg-[#0B0B0F] text-[#F8E2D4]">
       {/* Background glow (modern look) */}
       <div className="pointer-events-none fixed inset-0 -z-10">
         <div className="absolute -top-40 left-1/2 h-[520px] w-[520px] -translate-x-1/2 rounded-full bg-[#7209B7]/25 blur-3xl" />
