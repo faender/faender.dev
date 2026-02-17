@@ -2,9 +2,10 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-2xl px-6 py-16">
       <header className="space-y-3">
-        <h1 className="text-3xl font-semibold tracking-tight">Faender</h1>
+        <h1 className="text-3xl font-semibold tracking-tight">Welcome to my website!</h1>
         <p className="text-base text-neutral-600">
-          AI / Backend Engineer — building practical LLM systems.
+          I am a student at Fachhochschule Campus Wien finishing my bachelors in "Computer Science and Digital Communications" end of june. 
+		  I am currently searching for a job as a software developert mainly in the field of AI / Backend Engineer.
         </p>
       </header>
 
@@ -17,8 +18,8 @@ export default function Home() {
             </a>
           </li>
           <li>
-            <a className="underline underline-offset-4" href="#" target="_blank" rel="noreferrer">
-              LinkedIn (add)
+            <a className="underline underline-offset-4" href="https://www.linkedin.com/in/andreas-f%C3%A4nder-8183ab379" target="_blank" rel="noreferrer">
+              LinkedIn
             </a>
           </li>
           <li>
