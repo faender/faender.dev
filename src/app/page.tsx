@@ -12,7 +12,7 @@ export default function Home() {
         <h2 className="text-lg font-medium">Links</h2>
         <ul className="space-y-2 text-neutral-700">
           <li>
-            <a className="underline underline-offset-4" href="https://github.com/faender-dev" target="_blank" rel="noreferrer">
+            <a className="underline underline-offset-4" href="https://github.com/faender" target="_blank" rel="noreferrer">
               GitHub
             </a>
           </li>
