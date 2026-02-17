@@ -40,16 +40,17 @@ export default function Home() {
     },
   ];
 
-  const badgeByStatus = (status) => {
-    if (status === "Build")
-      return "border-[#E2BD6B]/30 bg-[#E2BD6B]/10 text-[#F8E2D4]";
-    return "border-[#B984DB]/25 bg-white/5 text-[#F8E2D4]/70";
-  };
+const badgeByStatus = (status: string) => {
+  if (status === "Build")
+    return "border-[#E2BD6B]/30 bg-[#E2BD6B]/10 text-[#F8E2D4]";
+  return "border-[#B984DB]/25 bg-white/5 text-[#F8E2D4]/70";
+};
 
-  const cardByStatus = (status) => {
-    if (status === "Build") return "border-[#B984DB]/25 bg-black/25 hover:border-[#E2BD6B]/30";
-    return "border-dashed border-[#B984DB]/25 bg-black/15 hover:border-[#B984DB]/40";
-  };
+const cardByStatus = (status: string) => {
+  if (status === "Build")
+    return "border-[#B984DB]/25 bg-black/25 hover:border-[#E2BD6B]/30";
+  return "border-dashed border-[#B984DB]/25 bg-black/15 hover:border-[#B984DB]/40";
+};
 
   return (
     <main className="min-h-dvh bg-red-500 text-white p-10">
