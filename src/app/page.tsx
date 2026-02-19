@@ -78,10 +78,19 @@ const cardByStatus = (status: string) => {
             <p className="max-w-3xl text-base leading-relaxed text-[#F8E2D4]/80">
               Ich studiere an der FH Campus Wien und beende meinen Bachelor in{" "}
               <span className="text-[#F8E2D4]">„Computer Science and Digital Communications“</span>{" "}
-              Ende Juni. Aktuell suche ich eine Position als{" "}
-              <span className="text-[#F8E2D4]">Software Developer</span>, vor allem im Bereich{" "}
-              <span className="text-[#F8E2D4]">AI</span> oder als{" "}
-              <span className="text-[#F8E2D4]">Backend Engineer</span>.
+              Ende Juni. Meine Leidenschaft gilt der Entwicklung robuster{" "}
+              <span className="text-[#F8E2D4]">Backend-Architekturen</span>{" "}
+              und der nahtlosen Integration von{" "}
+              <span className="text-[#F8E2D4]">Künstlicher Intelligenz</span>.{" "}
+              Mein Herz schlägt für die komplexe Logik im Hintergrund: Ich baue skalierbare Systeme und setze datengetriebene Projekte wie meine eigene{" "}
+              <span className="text-[#F8E2D4]">RAG-Knowledge-Base</span>{" "}
+              um. Nach dem Studium möchte ich mich ganz gezielt auf diesen Schnittstellenbereich fokussieren. Aktuell suche ich eine Position als{" "}
+              <span className="text-[#F8E2D4]">Software Developer</span>,{" "}
+              vor allem im Bereich{" "}
+              <span className="text-[#F8E2D4]">AI</span>{" "}
+              oder als{" "}
+              <span className="text-[#F8E2D4]">Backend Engineer</span>{" "}
+              – in einem Umfeld, das mir die Möglichkeit gibt, mich tief in die Materie einzuarbeiten und ein echter Experte in dem zu werden, was ich am liebsten mache.
             </p>
           </div>
 
