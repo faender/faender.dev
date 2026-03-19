@@ -245,6 +245,7 @@ export default function Home() {
                     className="rounded-xl bg-[#E2BD6B] px-4 py-2 text-sm font-semibold text-black transition hover:opacity-90"
                   >
                     LinkedIn öffnen
+				  </a>
                 </div>
               </div>
             </section>
