@@ -6,7 +6,6 @@ export default function Home() {
       href: "https://www.linkedin.com/in/andreas-f%C3%A4nder-8183ab379",
       hint: "Profil & Kontakt",
     },
-    { label: "CV (PDF)", href: "/cv.pdf", hint: "Download" },
   ];
 
   const skills = [
@@ -27,30 +26,42 @@ export default function Home() {
       highlights: ["FastAPI", "pgvector", "RAG"],
     },
     {
-      title: "Project Placeholder",
-      status: "Planned",
-      description: "Kurze Beschreibung folgt. Dieses Projekt wird später ergänzt.",
-      highlights: ["Coming soon"],
+      title: "Twitter-Outreach Web-App",
+      status: "Done",
+      description: "Web-App für Twitter-Outreach mit KI-generierten Antworten. Deployed über Vercel mit einer Supabase-Datenbank.",
+      highlights: ["Python", "Supabase", "Vercel", "AI"],
     },
     {
-      title: "Another Project Placeholder",
-      status: "Idea",
-      description: "Platzhalter für ein zukünftiges Projekt. Details werden ergänzt.",
-      highlights: ["TBD"],
+      title: "KI-Zielsystem",
+      status: "Done",
+      description: "Entwicklung eines intelligenten, KI-gesteuerten Zielsystems innerhalb der Unity Engine.",
+      highlights: ["Unity", "C#", "AI"],
+    },
+    {
+      title: "Mobile Bücherei-App",
+      status: "Done",
+      description: "Mobile Applikation mit integrierter Suchfunktion über die Google API.",
+      highlights: ["Kotlin", "Google API", "Mobile"],
+    },
+    {
+      title: "Assetübersicht Webapp",
+      status: "Done",
+      description: "Planung und Entwicklung einer Web-Anwendung zur übersichtlichen Verwaltung von Assets.",
+      highlights: ["JavaScript", "CSS", "Web"],
     },
   ];
 
-const badgeByStatus = (status: string) => {
-  if (status === "Build")
-    return "border-[#E2BD6B]/30 bg-[#E2BD6B]/10 text-[#F8E2D4]";
-  return "border-[#B984DB]/25 bg-white/5 text-[#F8E2D4]/70";
-};
+  const badgeByStatus = (status: string) => {
+    if (status === "Build")
+      return "border-[#E2BD6B]/30 bg-[#E2BD6B]/10 text-[#F8E2D4]";
+    return "border-[#B984DB]/25 bg-white/5 text-[#F8E2D4]/70";
+  };
 
-const cardByStatus = (status: string) => {
-  if (status === "Build")
-    return "border-[#B984DB]/25 bg-black/25 hover:border-[#E2BD6B]/30";
-  return "border-dashed border-[#B984DB]/25 bg-black/15 hover:border-[#B984DB]/40";
-};
+  const cardByStatus = (status: string) => {
+    if (status === "Build")
+      return "border-[#B984DB]/25 bg-black/25 hover:border-[#E2BD6B]/30";
+    return "border-dashed border-[#B984DB]/25 bg-black/15 hover:border-[#B984DB]/40";
+  };
 
   return (
     <main className="min-h-dvh bg-[#0B0B0F] text-[#F8E2D4]">
@@ -67,7 +78,7 @@ const cardByStatus = (status: string) => {
         <header className="space-y-6">
           <div className="inline-flex w-fit items-center gap-2 rounded-full border border-[#B984DB]/30 bg-white/5 px-3 py-1 text-xs text-[#F8E2D4]/80">
             <span className="h-2 w-2 rounded-full bg-[#E2BD6B]" />
-            Open for: AI / Backend • Full-time / Internship
+            Open for: AI / Backend / Frontend • Full-time 
           </div>
 
           <div className="space-y-3">
@@ -176,7 +187,7 @@ const cardByStatus = (status: string) => {
                 <div>
                   <h2 className="text-sm font-semibold tracking-wide">Projects</h2>
                   <p className="mt-2 text-sm text-[#F8E2D4]/65">
-                    Ausgewählte Projekte – zwei davon sind Platzhalter für später.
+                    Eine Auswahl meiner bisherigen Entwicklungen und Projekte.
                   </p>
                 </div>
               </div>
@@ -234,13 +245,6 @@ const cardByStatus = (status: string) => {
                     className="rounded-xl bg-[#E2BD6B] px-4 py-2 text-sm font-semibold text-black transition hover:opacity-90"
                   >
                     LinkedIn öffnen
-                  </a>
-                  <a
-                    href="/cv.pdf"
-                    className="rounded-xl border border-[#F8E2D4]/20 bg-black/30 px-4 py-2 text-sm font-semibold text-[#F8E2D4] transition hover:bg-black/40"
-                  >
-                    CV ansehen
-                  </a>
                 </div>
               </div>
             </section>
