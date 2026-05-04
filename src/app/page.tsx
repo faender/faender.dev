@@ -18,53 +18,57 @@ export default function Home() {
   ];
 
   const projects = [
-  {
+    {
       title: "Low-Code Asset Management System",
       status: "Done",
       description:
-        "Fokus: Benutzerfreundliches Frontend (Canvas App) und einfache Prozessautomatisierung.",
+        "Entwicklung eines modernen, intuitiven Frontends als Canvas App für die nahtlose Verwaltung von Unternehmens-Assets. Durch die gezielte Integration von Power Automate konnten ehemals manuelle Prozesse effizient automatisiert und Fehlerquellen drastisch minimiert werden.",
       highlights: ["Power Apps", "SharePoint/Dataverse", "Power Automate"],
     },
     {
       title: "Enterprise Expense Management System",
       status: "Done",
       description:
-        "Fokus: Relationales Datenmodell, automatisierte mehrstufige Genehmigungsworkflows und Datenvisualisierung.",
+        "Konzeption und Umsetzung einer vollumfänglichen Spesenverwaltung für den Enterprise-Einsatz. Im Zentrum stehen ein performantes, relationales Datenmodell in Dataverse sowie komplexe, mehrstufige Freigabe-Workflows. Ein interaktives Power BI-Dashboard sorgt zudem für maximale Transparenz der Ausgaben.",
       highlights: ["Power Apps", "Dataverse", "Power Automate", "Power BI"],
     },
     {
       title: "RAG Knowledge Base (in progress)",
       status: "Build",
       description:
-        "Upload docs → vector search → Antworten mit Quellen. FastAPI + Postgres/pgvector.",
+        "Entwicklung einer performanten Retrieval-Augmented Generation (RAG) Pipeline. Dokumente werden hochgeladen und über Embeddings in Postgres/pgvector indexiert. Das Backend liefert per Vektorsuche präzise KI-Antworten inklusive exakter Quellenangaben direkt aus den eigenen Daten.",
       highlights: ["FastAPI", "pgvector", "RAG"],
     },
     {
       title: "Twitter-Outreach Web-App",
       status: "Done",
-      description: "Web-App für Twitter-Outreach mit KI-generierten Antworten. Deployed über Vercel mit einer Supabase-Datenbank.",
+      description:
+        "Konzeption und Deployment einer Full-Stack-Lösung für intelligentes Social-Media-Outreach. Die App nutzt KI-Modelle zur Generierung kontextbezogener, personalisierter Antworten und stützt sich auf eine robuste Supabase-Architektur für performantes Datenmanagement.",
       highlights: ["Python", "Supabase", "Vercel", "AI"],
     },
     {
       title: "KI-Zielsystem",
       status: "Done",
-      description: "Entwicklung eines intelligenten, KI-gesteuerten Zielsystems innerhalb der Unity Engine.",
+      description:
+        "Implementierung eines dynamischen und intelligenten Zielerfassungssystems für NPC-Entitäten in Unity. Durch C#-basiertes Scripting und KI-Logik können virtuelle Agenten ihre Umgebung analysieren, strategische Entscheidungen treffen und realistisch agieren.",
       highlights: ["Unity", "C#", "AI"],
     },
     {
       title: "Mobile Bücherei-App",
       status: "Done",
-      description: "Mobile Applikation mit integrierter Suchfunktion über die Google API.",
+      description:
+        "Entwicklung einer nativen Android-Applikation in Kotlin zur digitalen Katalogisierung und Verwaltung von Büchern. Ein besonderes Highlight ist die nahtlose Anbindung der Google Books API für eine smarte, echtzeitfähige Such- und Auto-Complete-Funktion.",
       highlights: ["Kotlin", "Google API", "Mobile"],
     },
     {
       title: "Assetübersicht Webapp",
       status: "Done",
-      description: "Planung und Entwicklung einer Web-Anwendung zur übersichtlichen Verwaltung von Assets.",
+      description:
+        "Entwicklung eines interaktiven Web-Dashboards zur strukturierten Erfassung und Nachverfolgung von Inventar. Besonderer Fokus lag auf einer responsiven und nutzerfreundlichen UI, die es Anwendern ermöglicht, auch bei großen Datenmengen schnell den Überblick zu behalten.",
       highlights: ["JavaScript", "CSS", "Web"],
     },
   ];
-
+  
   const badgeByStatus = (status: string) => {
     if (status === "Build")
       return "border-[#E2BD6B]/30 bg-[#E2BD6B]/10 text-[#F8E2D4]";
