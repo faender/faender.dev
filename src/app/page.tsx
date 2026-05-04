@@ -18,6 +18,20 @@ export default function Home() {
   ];
 
   const projects = [
+  {
+      title: "Low-Code Asset Management System",
+      status: "Done",
+      description:
+        "Fokus: Benutzerfreundliches Frontend (Canvas App) und einfache Prozessautomatisierung.",
+      highlights: ["Power Apps", "SharePoint/Dataverse", "Power Automate"],
+    },
+    {
+      title: "Enterprise Expense Management System",
+      status: "Done",
+      description:
+        "Fokus: Relationales Datenmodell, automatisierte mehrstufige Genehmigungsworkflows und Datenvisualisierung.",
+      highlights: ["Power Apps", "Dataverse", "Power Automate", "Power BI"],
+    },
     {
       title: "RAG Knowledge Base (in progress)",
       status: "Build",
